@@ -26,7 +26,7 @@ function Banner() {
                         <div className=" rounded-full m">
 
                         </div>
-                        <h1 className="text-4xl lg:text-7xl -mt-50 font-normal text-center leading-none  px-3 w-3/4 tracking-tighter font-Frank
+                        <h1 className="text-4xl lg:text-7xl -mt-40 font-normal text-center leading-none  px-3 w-3/4 tracking-tighter font-Frank
                         text-white ">
                             It's not a <span className="text-gray-300">dating app</span><br />
                             It's not a <span className="text-gray-300">matrimony app</span>
@@ -38,10 +38,10 @@ function Banner() {
                         </p>
                         <div className="flex flex-col h-104  lg:flex-row gap-10 h-36">
                         <button
-                            className="px-10 py-3 text-4xl lg:px-10 -py-10 bg-white text-wine-100 mt-20 rounded-full font-semibold lg:font-bold text-xl lg:text-base tracking-tight">Join now
+                            className="w-52 py-3 text-4xl  lg: w-56  bg-white text-wine-100 mt-20 rounded-full font-semibold lg:text-3xl lg:font-bold lg:text-base tracking-tight">Join now
                         </button>
                         
-                        <div className=" w-3/2 h-10 mt-24 flex justify-center gap-3 ">
+                        <div className=" w-3/2 h-10 mt-48 flex justify-center gap-3 lg:mt-24 ">
                             <FaApple className="text-white text-3xl opacity-80" />
                             <FaGooglePlay className="text-white text-2xl mt-1 opacity-80"  />
                         </div>
