@@ -17,7 +17,7 @@ function Header() {
 
 
   return (
-    <header className="sticky flex px-5 py-4 md:px-[80px] md:py-8 h-[68px] md:h-[136px] justify-center items-center  bg-pink-0 ">
+    <header className="sticky flex px-5 py-4 md:px-[120px] md:py-8 h-[130px] md:h-[136px] justify-center items-center  z-30 bg-pink-0  ">
       {/* <img className="h-10 w-16 md:h-16 md:w-24" src={logo} alt="" /> */}
       <a href="https://www.juleo.club/">
         <img className="w-32 h-20 " src={logo} alt="" />
@@ -29,10 +29,10 @@ function Header() {
         />
       ) : (
         <nav className="ml-auto">
-          <button className="text-md font-medium text-gray-100 hover:text-gray-500 mx-2" onClick={scrollToAboutUs}>
+          <button className="text-lg text-gray-100 hover:text-gray-500 mx-2" onClick={scrollToAboutUs}>
             About 
           </button>
-          <button className="text-md font-medium text-gray-100 hover:text-gray-500 mx-2" onClick={scrollToContact}>
+          <button className="text-lg text-gray-100 hover:text-gray-500 mx-2" onClick={scrollToContact}>
             Contact
           </button>
         </nav>
@@ -91,13 +91,13 @@ const HamburgerIcon = ({ hamburgerClicked, setHamburgerClicked }: { hamburgerCli
         classNames="dropdown"
         unmountOnExit
       >
-        <div className="absolute w-full h-screen top-full right-0 mt-1 bg-white">
-          <div className="flex flex-col text-start bg-white">
-            <button className="px-6 py-4 text-gray-100 00 box_shadow_bot_wine text-left" onClick={scrollToAboutUs}>
+        <div className="absolute w-full h-screen top-full right-0 mt-1 bg-white dropdown-enter-done">
+          <div className="flex flex-col text-start bg-wine-120">
+            <button className="px-6 py-4 text-white  box_shadow_bot_wine text-left" onClick={scrollToAboutUs}>
               About 
             </button>
             
-            <button className="block px-6 py-4 text-gray-100 text-left" onClick={scrollToContact}>
+            <button className="block px-6 py-4 text-white text-left" onClick={scrollToContact}>
               Contact
             </button>
           </div>
