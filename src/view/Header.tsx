@@ -17,7 +17,7 @@ function Header() {
 
 
   return (
-    <header className="sticky flex px-5 py-4 md:px-[120px] md:py-8 h-[130px] md:h-[136px] justify-center items-center  z-30 bg-pink-0  ">
+    <header className="sticky flex -mb-[8px] px-5 py-4 md:px-[120px] md:py-8 h-[130px] md:h-[136px] justify-center items-center  z-30 bg-pink-0  ">
       {/* <img className="h-10 w-16 md:h-16 md:w-24" src={logo} alt="" /> */}
       <a href="https://www.juleo.club/">
         <img className="w-32 h-20 " src={logo} alt="" />
