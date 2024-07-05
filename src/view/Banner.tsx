@@ -25,10 +25,11 @@ function Banner() {
                         </p>
                         <div className="flex flex-col h-104  lg:flex-row gap-4 h-36">
                         <button
-                            className="px-[40px] py-[10px] bg-white rounded-full mt-[90px] font-bold text-wine-100 text-[20px] lg:font-extrabold ">Join now
+                            className="px-[40px] py-[10px] bg-white rounded-full mt-[90px] font-bold text-wine-100 text-[20px] lg:font-extrabold hover:bg-gray-300 
+                            hover:text-wine-120">Join now
                         </button>
                         
-                        <div className=" w-3/2 h-10 mt-96 flex justify-center gap-3 lg:mt-24 ">
+                        <div className=" w-3/2 h-10 mt-[250px] flex justify-center gap-3 lg:mt-[100px] ">
                             <FaApple className="text-white text-3xl opacity-80" />
                             <FaGooglePlay className="text-white text-2xl mt-1 opacity-80 "  />
                         </div>
