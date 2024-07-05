@@ -11,9 +11,9 @@ function Header() {
   const { width } = useWindowDimensions();
   const [hamburgerClicked, setHamburgerClicked] = useState(false);
   const globalStateContext = useContext(GlobalStateContext)
-  const scrollToAboutUs = () => globalStateContext.AboutUsRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' })   
-  const scrollToTeam = () => globalStateContext.TeamRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' })  
-  const scrollToContact = () => globalStateContext.ContactRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' })  
+  const scrollToAboutUs = () => globalStateContext.AboutUsRef.current.scrollIntoView({  block: 'start' })   
+  // const scrollToTeam = () => globalStateContext.TeamRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' })  
+  const scrollToContact = () => globalStateContext.ContactRef.current.scrollIntoView({  block: 'start' })  
 
 
   return (
@@ -57,17 +57,17 @@ const HamburgerIcon = ({ hamburgerClicked, setHamburgerClicked }: { hamburgerCli
   const scrollToAboutUs = () => {
     setHamburgerClicked(false)
     setShowDropdown(false)
-    globalStateContext.AboutUsRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' })   
+    globalStateContext.AboutUsRef.current.scrollIntoView({  block: 'start' })   
   }
-  const scrollToTeam = () => {
-    setHamburgerClicked(false)
-    setShowDropdown(false)
-    globalStateContext.TeamRef.current.scrollIntoView({ behavior:'smooth', block: 'start' })  
-  }
+  // const scrollToTeam = () => {
+  //   setHamburgerClicked(false)
+  //   setShowDropdown(false)
+  //   globalStateContext.TeamRef.current.scrollIntoView({ behavior:'smooth', block: 'start' })  
+  // }
   const scrollToContact = () => {
     setHamburgerClicked(false)
     setShowDropdown(false)
-    globalStateContext.ContactRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' })  
+    globalStateContext.ContactRef.current.scrollIntoView({  block: 'start' })  
   }
 
   return (
