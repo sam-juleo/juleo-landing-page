@@ -37,7 +37,7 @@ function Header() {
           </button> */}
           <ul className="flex">
 
-            <li className="text-lg text-gray-100 hover:text-gray-500 mx-2"><NavLink to="/MeetTheTeam" >About</NavLink></li>
+            <li className="text-lg text-gray-100 hover:text-gray-500 mx-2"><NavLink to="/about" >About</NavLink></li>
             <li className="text-lg text-gray-100 hover:text-gray-500 mx-2"><NavLink to="/contact" >Contact</NavLink></li>
           </ul>
         </nav>

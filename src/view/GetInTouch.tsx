@@ -9,7 +9,7 @@ import { useContext } from "react"
 function GetInTouch() {
     const globalStateContext = useContext(GlobalStateContext)
     return (
-        <div ref={globalStateContext.ContactRef} className="bg-wine-100 text-white flex flex-col items-center text-center px-5 py-7 md:px-[8%] xl:px-[120px] md:py-[60px] space-y-7 2lg:rounded-3xl">
+        <div ref={globalStateContext.ContactRef} className="bg-wine-100 text-white flex h-screen flex-col items-center text-center px-5 py-7 md:px-[8%] xl:px-[120px] md:py-[60px] space-y-7">
             <div className="flex flex-col space-y-7">
                 <h1 className="font-Frank text-5xl md:text-[56px] lg:text-[64px] font-medium md:tracking-[-2.56px]">Get in touch</h1>
                 {/* <p className=" text-lg md:text-2xl font-medium tracking-[0.72px] md:tracking-[1px]">We are always here to help with what you need</p> */}
