@@ -25,7 +25,7 @@ function Banner() {
                         </p>
                         <div className="flex flex-col h-104  lg:flex-row gap-4 h-36">
                         <button
-                            className="px-[40px] py-[10px] bg-white rounded-full mt-[50px] font-bold text-wine-100 text-[20px] lg:font-extrabold hover:bg-gray-300 
+                            className="px-[40px] py-[10px] bg-white rounded-full mt-[90px] font-bold text-wine-100 text-[20px] lg:font-extrabold hover:bg-gray-300 
                             hover:text-wine-120">Join now
                         </button>
                         
