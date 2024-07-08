@@ -13,10 +13,10 @@ function Banner() {
 
                         </div>
                         {/* text-4xl lg:text-7xl  */}
-                        <h1 className="text-[7.5vw] lg:text-[3.75vw] -mt-60 font-normal text-center leading-relaxed  w-full  font-Frank
+                        <h1 className="text-[7.5vw] lg:text-[3.75vw] -mt-60 font-normal text-center leading-tight  w-full  font-Frank
                         text-white ">
-                            It's not a <span className="text-gray-300">dating app</span><br />
-                            It's not a <span className="text-gray-300">matrimony app</span>
+                            It's not a <span className="text-white opacity-80">dating app</span><br />
+                            It's not a <span className="text-white opacity-80">matrimony app</span>
                             
                             </h1>
                             {/* text-xl lg:text-4xl */}
