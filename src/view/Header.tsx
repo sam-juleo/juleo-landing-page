@@ -85,9 +85,9 @@ const HamburgerIcon = ({ hamburgerClicked, setHamburgerClicked }: { hamburgerCli
         }}
       >
         {hamburgerClicked ? (
-          <img className="w-8 h-8" src={cross} alt="" />
+          <img className="w-6 h-6" src={cross} alt="" />
         ) : (
-          <img className="w-8 h-8" src={hamburger} alt="" />
+          <img className="w-6 h-6" src={hamburger} alt="" />
         )}
       </div>
       <CSSTransition
