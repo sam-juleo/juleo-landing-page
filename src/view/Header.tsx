@@ -6,14 +6,14 @@ import useWindowDimensions from "../hooks/useWindowDimensions";
 import { CSSTransition } from "react-transition-group";
 import { mediumScreen } from "./utils";
 import GlobalStateContext from "./GlobalStateContext";
-
+import { NavLink } from 'react-router-dom';
 function Header() {
   const { width } = useWindowDimensions();
   const [hamburgerClicked, setHamburgerClicked] = useState(false);
   const globalStateContext = useContext(GlobalStateContext)
-  const scrollToAboutUs = () => globalStateContext.AboutUsRef.current.scrollIntoView({  block: 'start' })   
+  const scrollToAboutUs = () => globalStateContext.AboutUsRef.current.scrollIntoView({ block: 'start' })
   // const scrollToTeam = () => globalStateContext.TeamRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' })  
-  const scrollToContact = () => globalStateContext.ContactRef.current.scrollIntoView({  block: 'start' })  
+  const scrollToContact = () => globalStateContext.ContactRef.current.scrollIntoView({ block: 'start' })
 
 
   return (
@@ -29,12 +29,17 @@ function Header() {
         />
       ) : (
         <nav className="ml-auto">
-          <button className="text-lg text-gray-100 hover:text-gray-500 mx-2" onClick={scrollToAboutUs}>
+          {/* <button className="text-lg text-gray-100 hover:text-gray-500 mx-2" onClick={scrollToAboutUs}>
             About 
           </button>
           <button className="text-lg text-gray-100 hover:text-gray-500 mx-2" onClick={scrollToContact}>
             Contact
-          </button>
+          </button> */}
+          <ul className="flex">
+
+            <li className="text-lg text-gray-100 hover:text-gray-500 mx-2"><NavLink to="/MeetTheTeam" >About</NavLink></li>
+            <li className="text-lg text-gray-100 hover:text-gray-500 mx-2"><NavLink to="/contact" >Contact</NavLink></li>
+          </ul>
         </nav>
       )}
     </header>
@@ -48,7 +53,7 @@ const HamburgerIcon = ({ hamburgerClicked, setHamburgerClicked }: { hamburgerCli
     setShowDropdown(!showDropdown);
   };
 
-  useEffect(()=>{
+  useEffect(() => {
     setHamburgerClicked(false)
     setShowDropdown(false)
   }, [width, height])
@@ -57,7 +62,7 @@ const HamburgerIcon = ({ hamburgerClicked, setHamburgerClicked }: { hamburgerCli
   const scrollToAboutUs = () => {
     setHamburgerClicked(false)
     setShowDropdown(false)
-    globalStateContext.AboutUsRef.current.scrollIntoView({  block: 'start' })   
+    globalStateContext.AboutUsRef.current.scrollIntoView({ block: 'start' })
   }
   // const scrollToTeam = () => {
   //   setHamburgerClicked(false)
@@ -67,7 +72,7 @@ const HamburgerIcon = ({ hamburgerClicked, setHamburgerClicked }: { hamburgerCli
   const scrollToContact = () => {
     setHamburgerClicked(false)
     setShowDropdown(false)
-    globalStateContext.ContactRef.current.scrollIntoView({  block: 'start' })  
+    globalStateContext.ContactRef.current.scrollIntoView({ block: 'start' })
   }
 
   return (
@@ -93,13 +98,18 @@ const HamburgerIcon = ({ hamburgerClicked, setHamburgerClicked }: { hamburgerCli
       >
         <div className="absolute w-full h-screen top-full right-0 mt-1 bg-white dropdown-enter-done">
           <div className="flex flex-col text-start bg-wine-120">
-            <button className="px-6 py-4 text-white  box_shadow_bot_wine text-left" onClick={scrollToAboutUs}>
-              About 
+            {/* <button className="px-6 py-4 text-white  box_shadow_bot_wine text-left" onClick={scrollToAboutUs}>
+              About
             </button>
-            
+
             <button className="block px-6 py-4 text-white text-left" onClick={scrollToContact}>
               Contact
-            </button>
+            </button> */}
+            <ul>
+
+            <li className="text-lg text-gray-100 hover:text-gray-500 mx-2"><NavLink to="/about" >About</NavLink></li>
+            <li className="text-lg text-gray-100 hover:text-gray-500 mx-2"><NavLink to="/contact" >Contact</NavLink></li>
+          </ul>
           </div>
         </div>
       </CSSTransition>
