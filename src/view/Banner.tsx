@@ -29,7 +29,7 @@ function Banner() {
                             hover:text-wine-120">Join now
                         </button>
                         
-                        <div className=" w-3/2 h-10 mt-[10vh] flex justify-center gap-3 lg:mt-[100px] ">
+                        <div className=" w-3/2 h-10 mt-[5vh] flex justify-center gap-3 lg:mt-[100px] ">
                             <FaApple className="text-white text-3xl opacity-80" />
                             <FaGooglePlay className="text-white text-2xl mt-1 opacity-80 "  />
                         </div>
