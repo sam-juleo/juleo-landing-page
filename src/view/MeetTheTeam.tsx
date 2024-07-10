@@ -23,8 +23,8 @@ function MeetTheTeam() {
     const globalStateContext = useContext(GlobalStateContext)
 
     return (
-        <div ref={globalStateContext.TeamRef} className="flex flex-col items-center text-center p-5 mt-36 md:px-[8%] xl:px-[120px] md:pb-[120px] space-y-7">
-            <h1 className="font-Frank text-5xl md:text-[56px] lg:text-[64px] text-wine-100 font-medium md:tracking-[-2.56px]">Meet the team</h1>
+        <div ref={globalStateContext.TeamRef} className="flex flex-col items-center text-center p-5 mt-36 md:px-[8%] xl:px-[120px] xl:mt-80 md:pb-[120px] space-y-7">
+            
             <p className="text-base text-gray-80 md:text-2xl tracking-[1px] md:font-medium ">Our team boasts alumni from prestigious organizations such as: </p>
             
             <div className="flex flex-wrap justify-center">

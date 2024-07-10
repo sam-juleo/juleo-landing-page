@@ -35,10 +35,10 @@ function Header() {
           <button className="text-lg text-gray-100 hover:text-gray-500 mx-2" onClick={scrollToContact}>
             Contact
           </button> */}
-          <ul className="flex">
+          <ul className="flex gap-4">
 
-            <li className="text-lg text-white opacity-80 hover:text-gray-500 mx-2"><NavLink to="/about" >About</NavLink></li>
-            <li className="text-lg text-white opacity-80 hover:text-gray-500 mx-2"><NavLink to="/contact" >Contact</NavLink></li>
+            <li className="text-lg text-white opacity-80 hover:text-gray-500 "><NavLink to="/about" >About</NavLink></li>
+            <li className="text-lg text-white opacity-80 hover:text-gray-500 "><NavLink to="/contact" >Contact</NavLink></li>
           </ul>
         </nav>
       )}

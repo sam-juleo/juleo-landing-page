@@ -81,7 +81,9 @@ function WhoWeAre() {
                         </div>
                     </div>
                 </div>
+                
             </div>
+            <h1 className="font-Frank text-5xl md:text-[56px] lg:text-[64px]  text-wine-100 font-medium md:tracking-[-2.56px]">Meet the team</h1>
         </div>
     );
 }
