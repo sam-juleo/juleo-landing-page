@@ -18,7 +18,7 @@ function WhoWeAre() {
     return (
 
         // <div className="text-center md:my-[120px] bg-white space-y-4 h-full">
-        <div ref={globalStateContext.AboutUsRef} className="text-center space-y-7 h-full p-5  md:px-[8%] xl:px-[120px] md:py-[120px]">
+        <div ref={globalStateContext.AboutUsRef} className="text-center space-y-7 h-screen p-5  md:px-[8%] xl:px-[120px] xl:-mt-[90px] md:py-[120px]">
             <h1 className="font-Frank text-5xl md:text-[56px] lg:text-[64px] text-wine-100 font-medium md:tracking-[-2.56px]">Who are we?</h1>
             <div className="text-gray-80 text-lg md:text-2xl md:font-medium tracking-[0.72px] md:tracking-[1px] md:px-[8%]">
                 <p>Our team is a vibrant mix of smart, passionate individuals, united by a commitment to excellence and collaboration.</p>
