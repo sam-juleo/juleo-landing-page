@@ -9,6 +9,7 @@ import { useContext } from "react"
 import GlobalStateContext from "./GlobalStateContext"
 import useWindowDimensions from "../hooks/useWindowDimensions"
 import { mediumScreen } from "./utils"
+import Header from "./Header"
 
 
 function WhoWeAre() {
@@ -18,6 +19,8 @@ function WhoWeAre() {
     return (
 
         // <div className="text-center md:my-[120px] bg-white space-y-4 h-full">
+        <>
+        <Header/>
         <div ref={globalStateContext.AboutUsRef} className="text-center space-y-7 h-screen p-5  md:px-[8%] xl:px-[120px] xl:-mt-[90px] md:py-[120px]">
             <h1 className="font-Frank text-5xl md:text-[56px] lg:text-[64px] text-wine-100 font-medium md:tracking-[-2.56px]">Who are we?</h1>
             <div className="text-gray-80 text-lg md:text-2xl md:font-medium tracking-[0.72px] md:tracking-[1px] md:px-[8%]">
@@ -85,6 +88,7 @@ function WhoWeAre() {
             </div>
             <h1 className="font-Frank text-5xl md:text-[56px] lg:text-[64px]  text-wine-100 font-medium md:tracking-[-2.56px]">Meet the team</h1>
         </div>
+        </>
     );
 }
 

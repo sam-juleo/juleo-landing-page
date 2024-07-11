@@ -6,9 +6,12 @@ import MapPin from "../assets/MapPinLine.svg"
 import Location from "../assets/location.png"
 import GlobalStateContext from "./GlobalStateContext"
 import { useContext } from "react"
+import Header from "./Header"
 function GetInTouch() {
     const globalStateContext = useContext(GlobalStateContext)
     return (
+       <>
+       <Header />
         <div ref={globalStateContext.ContactRef} className="bg-wine-100 text-white flex h-screen flex-col items-center text-center px-5 py-7 md:px-[8%] xl:px-[120px] md:py-[60px] space-y-7">
             <div className="flex flex-col space-y-7">
                 <h1 className="font-Frank text-5xl md:text-[56px] lg:text-[64px] font-medium md:tracking-[-2.56px]">Get in touch</h1>
@@ -39,6 +42,7 @@ function GetInTouch() {
                 </div>
             </div>
         </div>
+       </>
     );
 }
 
