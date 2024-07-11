@@ -36,7 +36,7 @@ function Banner() {
                         </p>
                         <div className="flex flex-col h-104  lg:flex-row gap-4 h-36">
                         <button
-                            className="px-[40px] py-[10px] text-[20px] font-body rounded-full mt-[90px] font-[700] text-white lg:text-[40px] lg:font-[700] ">By invite only
+                            className="px-[40px] py-[10px] text-[20px] font-body rounded-full mt-[90px] font-[700] text-white lg:text-[40px] lg:font-[700] opacity-80 ">By invite only
                         </button>
                         
                         <div className=" w-3/2 h-10 mt-[6vh] flex gap-4 justify-center lg:gap-7 lg:mt-[114px] ">
