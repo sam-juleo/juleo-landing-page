@@ -24,21 +24,21 @@ function MeetTheTeam() {
 
     return (
         <div ref={globalStateContext.TeamRef} className="flex flex-col items-center text-center p-5 mt-36 md:px-[8%] xl:px-[120px] xl:mt-80 md:pb-[120px] space-y-7">
-            
+            <h1 className="font-Frank text-5xl md:text-[56px] lg:text-[64px]  text-wine-100 font-medium md:tracking-[-2.56px]">Meet the team</h1>
             <p className="text-base text-gray-80 md:text-2xl tracking-[1px] md:font-medium ">Our team boasts alumni from prestigious organizations such as: </p>
-            
+
             <div className="flex flex-wrap justify-center">
 
                 <div className="w-[100px] px-5 min-h-20 md:w-48 md:px-12 xl:w-52 xl:px-10 md:min-h-24"><img className="h-full" src={Google} alt="" /></div>
                 <div className="w-[100px] px-5 min-h-20 md:w-48 md:px-12 xl:w-52 xl:px-10 md:min-h-24"><img className="h-full" src={Amazon} alt="" /></div>
                 <div className="w-[100px] px-4 min-h-20 md:w-48 md:px-8  xl:w-52 xl:px-8  md:min-h-24"><img className="h-full" src={McKinsey} alt="" /></div>
-                
+
                 <div className="w-[80px] px-5 min-h-20 md:w-[160px] md:px-12 xl:w-[160px] xl:px-10"><img className="h-full" src={Bcg} alt="" /></div>
-                
+
                 <div className="w-[80px] px-5 min-h-20 md:w-[160px] md:px-12 xl:w-[160px] xl:px-10"><img className="h-full" src={PnG} alt="" /></div>
                 <div className="w-[100px] px-5 min-h-20 md:w-48 md:px-12 xl:w-52 xl:px-10 md:min-h-24"><img className="h-full" src={Uber} alt="" /></div>
                 <div className="w-[100px] px-5 min-h-20 md:w-48 md:px-12 xl:w-52 xl:px-10 md:min-h-24"><img className="h-full" src={Zomato} alt="" /></div>
-                
+
                 <div className="w-[80px] px-5 min-h-20 md:w-[160px] md:px-12 xl:w-[160px] xl:px-10"><img className="h-full" src={Udaan} alt="" /></div>
                 <div className="w-[100px] px-5 min-h-20 md:w-48 md:px-12 xl:w-52 xl:px-10 md:min-h-24"><img className="h-full" src={Inmobi} alt="" /></div>
             </div>

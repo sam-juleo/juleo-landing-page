@@ -10,6 +10,7 @@ import GlobalStateContext from "./GlobalStateContext"
 import useWindowDimensions from "../hooks/useWindowDimensions"
 import { mediumScreen } from "./utils"
 import Header from "./Header"
+import MeetTheTeam from "./MeetTheTeam"
 
 
 function WhoWeAre() {
@@ -86,7 +87,7 @@ function WhoWeAre() {
                 </div>
                 
             </div>
-            <h1 className="font-Frank text-5xl md:text-[56px] lg:text-[64px]  text-wine-100 font-medium md:tracking-[-2.56px]">Meet the team</h1>
+          <MeetTheTeam />
         </div>
         </>
     );
