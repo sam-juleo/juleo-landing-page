@@ -7,6 +7,7 @@ module.exports = {
       'larry': ['"Nunito Sans"', 'sans-serif'],
       'DMSans': ['"DM Sans"', 'sans-serif'],
       'Frank': ['"Frank Ruhl Libre"', 'serif'],
+      'Manrope': ['"Manrope", sans-serif"'],
     },
     extend: {
       screens: {
@@ -31,6 +32,10 @@ module.exports = {
           20: '#E5D0DB',
           10: '#E9E8EC'
         }
+      },
+
+      fontFamily:{
+          body:['Manrope']
       },
       
     },

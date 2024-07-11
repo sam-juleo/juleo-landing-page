@@ -21,7 +21,7 @@ function GetInTouch() {
                 <div className="flex flex-col space-y-6 font-medium text-start text-lg md:text-2xl tracking-[0.72px] md:w-1/2 md:pr-[120px]">
                     <div className="flex space-x-2">
                         <img className="w-7" src={Envelope} alt={Envelope}/>
-                        <a className="underline" href="mailto:help@juleo.club" target="_blank" rel="noreferrer">help@juleo.club</a>
+                        <a className="underline" href="mailto:help@juleo.club" target="_blank" rel="noreferrer">genie@juleo.club</a>
                     </div>
                     <div className="flex space-x-2">
                         <img className="w-7" src={LinkedInWhite} alt={LinkedInWhite} />

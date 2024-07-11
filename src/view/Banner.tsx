@@ -31,15 +31,15 @@ function Banner() {
                             
                             </h1>
                             {/* text-xl lg:text-4xl */}
-                        <p className="text-[22px] w-[80%] lg:text-[36px] lg:w-[55%] mt-16  text-center  mt-6 tracking-normal text-white font-normal font ">
+                        <p className="text-[22px] w-[80%] lg:text-[36px] lg:w-[55%] mt-16  text-center  mt-6 tracking-normal text-white font-normal font-body ">
                          Juleo is a Trusted Singles Club of Govt ID verified Members who actually meet, not just match
                         </p>
                         <div className="flex flex-col h-104  lg:flex-row gap-4 h-36">
                         <button
-                            className="px-[40px] py-[10px] text-[20px] rounded-full mt-[90px] font-[700] text-white lg:text-[40px] lg:font-[700] ">By invite only
+                            className="px-[40px] py-[10px] text-[20px] font-body rounded-full mt-[90px] font-[700] text-white lg:text-[40px] lg:font-[700] ">By invite only
                         </button>
                         
-                        <div className=" w-3/2 h-10 mt-[6vh] flex justify-center gap-3 lg:mt-[113px] ">
+                        <div className=" w-3/2 h-10 mt-[8vh] flex justify-center gap-7 lg:mt-[114px] ">
                             <FaApple className="text-white text-3xl lg:text-4xl opacity-80" />
                             <FaGooglePlay className="text-white text-2xl lg:text-3xl mt-1 opacity-80 "  />
                         </div>
