@@ -16,17 +16,17 @@ import WhoWeAre from './view/WhoWeAre';
 
 
 function App() {
-    return (
-      <Routes>
-            <Route path="/" element={<HomeScreen />} />
-            <Route path="/terms" element={<TermsAndConditions />} />
-            <Route path="/privacy" element={<PrivacyPolicy />} />
-            <Route path="/delete" element={<DeleteData />} />
-            <Route path="/about" element={<WhoWeAre />}>
-  </Route>
-  <Route path="/contact" element={<GetInTouch />} />
-      </Routes>
-    );
+  return (
+    <Routes>
+      <Route path="/" element={<HomeScreen />} />
+      <Route path="/terms" element={<TermsAndConditions />} />
+      <Route path="/privacy" element={<PrivacyPolicy />} />
+      <Route path="/delete" element={<DeleteData />} />
+      <Route path="/about" element={<WhoWeAre />}>
+      </Route>
+      <Route path="/contact" element={<GetInTouch />} />
+    </Routes>
+  );
 }
 
 
