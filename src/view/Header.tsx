@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useContext } from "react";
-import Logo from '../assets/logo-final.svg'
+import Logo from '../assets/logo.png'
 import cross from "../assets/cross.svg"
 import hamburger from "../assets/hamburger.svg";
 import useWindowDimensions from "../hooks/useWindowDimensions";
@@ -20,7 +20,7 @@ function Header() {
     <header className="sticky flex -mb-[8px] px-5 py-4 md:px-[120px] md:py-8 h-[130px] md:h-[136px] justify-center items-center  z-30 bg-pink-0  ">
       {/* <img className="h-10 w-16 md:h-16 md:w-24" src={logo} alt="" /> */}
       <Link to="/">
-         <img className="w-40 h-24 " src={Logo} alt="" />
+         <img className="w-50 h-36 mt-5" src={Logo} alt="logo" />
       </Link>
       {width <= mediumScreen ? (
         <HamburgerIcon
