@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useContext } from "react";
-import Logo from '../assets/Logo.svg'
+import Logo from '../assets/logo-final.svg'
 import cross from "../assets/cross.svg"
 import hamburger from "../assets/hamburger.svg";
 import useWindowDimensions from "../hooks/useWindowDimensions";

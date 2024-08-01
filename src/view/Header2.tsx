@@ -1,5 +1,5 @@
 // import React, { useEffect, useState, useContext } from "react";
-import logo from "../assets/Logo.svg";
+import Logo from "../assets/logo-final.svg";
 // import cross from "../assets/cross.svg"
 // import hamburger from "../assets/hamburger.svg";
 // import useWindowDimensions from "../hooks/useWindowDimensions";
@@ -23,7 +23,7 @@ function Header2() {
       {/* <img className="h-10 w-16 md:h-16 md:w-24" src={logo} alt="" /> */}
       <div className="md:flex">
       <a className="" href="/">
-        <img className="h-10 w-16 md:h-16 md:w-24 m-auto md:m-0" src={logo} alt="" />
+        <img className="h-10 w-16 md:h-16 md:w-24 m-auto md:m-0" src={Logo} alt="" />
       </a>
       <nav className="flex ml-auto justify-center items-center mt-4 md:mt-0">
         <button className="text-xs md:text-lg text-gray-80 hover:text-wine-100 mx-2">
