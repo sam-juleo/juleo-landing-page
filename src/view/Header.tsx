@@ -20,7 +20,7 @@ function Header() {
     <header className="sticky flex -mb-[8px] px-5 py-4 md:px-[120px] md:py-8 h-[130px] md:h-[136px] justify-center items-center  z-30 bg-pink-0  ">
       {/* <img className="h-10 w-16 md:h-16 md:w-24" src={logo} alt="" /> */}
       <Link to="/">
-         <img className="w-[180px] h-18 lg:w-48 lg:h-28 lg:mt-5" src={Logo} alt="logo" />
+        <img className="w-[180px] h-18 lg:w-48 lg:h-28 lg:mt-5" src={Logo} alt="logo" />
       </Link>
       {width <= mediumScreen ? (
         <HamburgerIcon
@@ -107,9 +107,17 @@ const HamburgerIcon = ({ hamburgerClicked, setHamburgerClicked }: { hamburgerCli
             </button> */}
             <ul>
 
-            <li className="block px-6 py-4 text-black box_shadow_bot_wine text-left"><NavLink to="/about" >About</NavLink></li>
-            <li className="block px-6 py-4 text-black box_shadow_bot_wine text-left"><NavLink to="/contact" >Contact</NavLink></li>
-          </ul>
+              {/* <button className="block px-6 py-4 text-black box_shadow_bot_wine text-left w-full"><NavLink to="/about" >About</NavLink></button>
+            <button className="block px-6 py-4 text-black box_shadow_bot_wine text-left w-full"><NavLink to="/contact" >Contact</NavLink></button> */}
+
+
+              <NavLink to="/about" className="block px-6 py-4 text-black box_shadow_bot_wine text-left w-full">
+                <button>About</button>
+              </NavLink>
+              <NavLink to="/contact" className="block px-6 py-4 text-black box_shadow_bot_wine text-left w-full">
+                <button>Contact</button>
+              </NavLink>
+            </ul>
           </div>
         </div>
       </CSSTransition>
