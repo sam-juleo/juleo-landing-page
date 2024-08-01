@@ -1,21 +1,21 @@
-import React, { useEffect, useState, useContext } from "react";
+// import React, { useEffect, useState, useContext } from "react";
 import logo from "../assets/logo.svg";
-import cross from "../assets/cross.svg"
-import hamburger from "../assets/hamburger.svg";
-import useWindowDimensions from "../hooks/useWindowDimensions";
-import { CSSTransition } from "react-transition-group";
-import { mediumScreen } from "./utils";
-import GlobalStateContext from "./GlobalStateContext";
-import { Link } from 'react-router-dom';
+// import cross from "../assets/cross.svg"
+// import hamburger from "../assets/hamburger.svg";
+// import useWindowDimensions from "../hooks/useWindowDimensions";
+// import { CSSTransition } from "react-transition-group";
+// import { mediumScreen } from "./utils";
+// import GlobalStateContext from "./GlobalStateContext";
+// import { Link } from 'react-router-dom';
 
 
 function Header2() {
-  const { width } = useWindowDimensions();
-  const [hamburgerClicked, setHamburgerClicked] = useState(false);
-  const globalStateContext = useContext(GlobalStateContext)
-  const scrollToAboutUs = () => globalStateContext.AboutUsRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' })
-  const scrollToTeam = () => globalStateContext.TeamRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' })
-  const scrollToContact = () => globalStateContext.ContactRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' })
+  // const { width } = useWindowDimensions();
+  // const [hamburgerClicked, setHamburgerClicked] = useState(false);
+  // const globalStateContext = useContext(GlobalStateContext)
+  // const scrollToAboutUs = () => globalStateContext.AboutUsRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' })
+  // const scrollToTeam = () => globalStateContext.TeamRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' })
+  // const scrollToContact = () => globalStateContext.ContactRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' })
 
 
   return (
