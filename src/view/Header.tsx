@@ -97,18 +97,18 @@ const HamburgerIcon = ({ hamburgerClicked, setHamburgerClicked }: { hamburgerCli
         unmountOnExit
       >
         <div className="absolute w-full h-screen top-full right-0 mt-1 bg-white dropdown-enter-done">
-          <div className="flex flex-col text-start bg-wine-120">
-            {/* <button className="px-6 py-4 text-white  box_shadow_bot_wine text-left" onClick={scrollToAboutUs}>
+          <div className="flex flex-col text-start bg-white h-1">
+            {/* <button className="px-6 py-4 text-black box_shadow_bot_wine text-left" onClick={scrollToAboutUs}>
               About
             </button>
 
-            <button className="block px-6 py-4 text-white text-left" onClick={scrollToContact}>
+            <button className="block px-6 py-4 text-black text-left" onClick={scrollToContact}>
               Contact
             </button> */}
             <ul>
 
-            <li className="text-lg text-gray-100 hover:text-gray-500 mx-2"><NavLink to="/about" >About</NavLink></li>
-            <li className="text-lg text-gray-100 hover:text-gray-500 mx-2"><NavLink to="/contact" >Contact</NavLink></li>
+            <li className="block px-6 py-4 text-black text-left mx-2"><NavLink to="/about" >About</NavLink></li>
+            <li className="block px-6 py-4 text-black text-left mx-2"><NavLink to="/contact" >Contact</NavLink></li>
           </ul>
           </div>
         </div>
