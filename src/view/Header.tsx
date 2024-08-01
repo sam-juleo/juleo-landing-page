@@ -20,7 +20,7 @@ function Header() {
     <header className="sticky flex -mb-[8px] px-5 py-4 md:px-[120px] md:py-8 h-[130px] md:h-[136px] justify-center items-center  z-30 bg-pink-0  ">
       {/* <img className="h-10 w-16 md:h-16 md:w-24" src={logo} alt="" /> */}
       <Link to="/">
-        <img className=" -ml-5 w-[140px] h-18 lg:w-48 lg:h-28 lg:mt-5" src={Logo} alt="logo" />
+        <img className=" -ml-5 w-[150px] h-18 lg:w-48 lg:h-28 lg:mt-5" src={Logo} alt="logo" />
       </Link>
       {width <= mediumScreen ? (
         <HamburgerIcon
