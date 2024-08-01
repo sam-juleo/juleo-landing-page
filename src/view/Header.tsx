@@ -107,8 +107,8 @@ const HamburgerIcon = ({ hamburgerClicked, setHamburgerClicked }: { hamburgerCli
             </button> */}
             <ul>
 
-            <li className="block px-6 py-4 text-black text-left mx-2"><NavLink to="/about" >About</NavLink></li>
-            <li className="block px-6 py-4 text-black text-left mx-2"><NavLink to="/contact" >Contact</NavLink></li>
+            <li className="block px-6 py-4 text-black box_shadow_bot_wine text-left"><NavLink to="/about" >About</NavLink></li>
+            <li className="block px-6 py-4 text-black box_shadow_bot_wine text-left"><NavLink to="/contact" >Contact</NavLink></li>
           </ul>
           </div>
         </div>
