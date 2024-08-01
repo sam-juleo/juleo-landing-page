@@ -36,11 +36,11 @@ function Banner() {
                         </p>
                         <div className="flex flex-col h-104  lg:flex-row gap-4 h-36 lg:-mt-10">
                             <button
-                                className="px-[35px] py-1 font-bold text-[20px] mt-5 lg:text-[35px] bg-white lg:px-12 lg:py-1 lg:mt-20 text-wine-100 bold rounded-full lg:font-bold lg:mr-4">
+                                className="px-[35px] py-2 font-bold text-[20px] mt-6 lg:text-[35px] bg-white lg:px-12 lg:py-1 lg:mt-20 text-wine-100 bold rounded-full lg:font-bold lg:mr-4">
                                 Join now
                             </button>
 
-                            <div className=" w-3/2 h-10 mt-[6vh] flex gap-4 justify-center lg:gap-7 lg:mt-[95px] ">
+                            <div className=" w-3/2 h-10 mt-[5vh] flex gap-4 justify-center lg:gap-7 lg:mt-[95px] ">
                                 <FaApple className="text-white text-3xl lg:text-4xl opacity-80" />
                                 <FaGooglePlay className="text-white text-2xl lg:text-3xl mt-1 opacity-80 " />
                             </div>
