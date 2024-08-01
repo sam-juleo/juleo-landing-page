@@ -35,10 +35,11 @@ function Banner() {
                             Juleo is a Trusted Singles Club of Govt ID verified Members who actually meet, not just match
                         </p>
                         <div className="flex flex-col h-104  lg:flex-row gap-4 h-36 lg:-mt-10">
-                            <button
+                            <a href='https://join.juleo.club/l
+'
                                 className="px-[60px] py-2 font-bold text-[20px] mt-6 lg:text-[35px] bg-white lg:px-12 lg:py-1 lg:mt-20 text-wine-100 bold rounded-full lg:font-bold lg:mr-4">
                                 Join now
-                            </button>
+                            </a>
 
                             <div className=" w-3/2 h-10 mt-[5vh] flex gap-4 justify-center lg:gap-7 lg:mt-[95px] ">
                                 <FaApple className="text-white text-3xl lg:text-4xl opacity-80" />
