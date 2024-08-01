@@ -14,7 +14,7 @@ function Banner() {
     }, []);
 
     return (
-        <div className="relative bg-gradient-to-b from-pink-0 to-pink-100 h-screen ">
+        <div className="relative bg-gradient-to-b from-pink-0 to-pink-100 min-h-screen ">
             <div className="flex flex-col">
                 <div className="flex flex-col text-center ">
 
