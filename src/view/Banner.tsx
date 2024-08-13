@@ -41,7 +41,7 @@ function Banner() {
                             </a>
 
                             <div className=" w-3/2 h-10 mt-[5vh] flex gap-4 justify-center lg:gap-7 lg:mt-[95px] ">
-                                <a href="https://apps.apple.com/us/app/juleo-trusted-singles-club/id6479004707">  <FaApple className="text-white text-3xl lg:text-4xl opacity-80" /></a>
+                                <a href="https://apps.apple.com/us/app/juleo-trusted-singles-club/id6479004707"> <FaApple className="text-white text-3xl lg:text-4xl opacity-80" /></a>
                                 <a href="https://play.google.com/store/apps/details?id=com.juleoclub.juleo"> <FaGooglePlay className="text-white text-2xl lg:text-3xl mt-1 opacity-80 " /></a>
                             </div>
                         </div>

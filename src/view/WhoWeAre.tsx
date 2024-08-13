@@ -3,6 +3,7 @@ import office_space from "../assets/office_space.png"
 import Illustration from "../assets/grill.svg"
 import office_comp from "../assets/office_illus_comp.png"
 import team from "../assets/team.jpeg"
+import team2 from "../assets/team2.jpg"
 import team_comp from "../assets/team_comp.webp"
 import decoration from "../assets/decoration.svg"
 import { useContext } from "react"
@@ -37,13 +38,13 @@ function WhoWeAre() {
                     {width < mediumScreen ? (
                         <div className="relative">
                             <img className="absolute -right-4 -bottom-8 w-[40%] z-0" src={decoration}/>
-                            <img className="absolute rounded-2xl" src={team}/>
-                            <img className="rounded-2xl" src={team}/>
+                            <img className="absolute rounded-2xl" src={team2}/>
+                            <img className="rounded-2xl" src={team2}/>
                         </div>
                         
 
                     ) : (
-                        <img className="" src={team_comp}/>
+                        <img className="rounded-2xl" src={team2}/>
                     )}
 
                 </div>
