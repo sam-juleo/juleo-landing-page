@@ -19,7 +19,7 @@ function Banner() {
             <div className="flex flex-col">
 
                     <div className='flex items-center justify-center'>
-                        <div className=' bg-gradient-to-b from-transparent to-[#6a043f] lg:w-[370px] lg:h-[20px] lg:relative lg:top-60 z-50'>
+                        <div className=' bg-gradient-to-b from-transparent to-[#6a043f] lg:w-[370px] lg:h-[40px] lg:relative lg:top-[220px] z-50'>
                         </div>
                         <img className='absolute z-40 -top-[65px] w-[550px]'  src={ModelTwo} alt="" />
                    
