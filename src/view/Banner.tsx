@@ -33,7 +33,7 @@ function Banner() {
 
                         </div>
                         {/* text-4xl lg:text-7xl  */}
-                        <h1 className="text-[7.5vw] lg:text-[3.55vw] -mt-60 lg:mt-[110px] font-normal text-center leading-tight w-full font-Frank text-white">
+                        <h1 className="text-[7.5vw] lg:text-[3.55vw] -mt-60 lg:mt-[100px] font-normal text-center leading-tight w-full font-Frank text-white">
                             It's not a <span className="text-white opacity-80">dating app</span><br />
                             It's not a <span className="text-white opacity-80">matrimony app</span>
                         </h1>
