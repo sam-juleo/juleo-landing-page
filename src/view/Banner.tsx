@@ -18,13 +18,22 @@ function Banner() {
         <div className="relative bg-gradient-to-b from-pink-0 to-pink-100 min-h-screen ">
             <div className="flex flex-col">
 
-                    <div className='flex items-center justify-center'>
-                        <div className=' bg-gradient-to-b from-transparent to-[#6a043f] lg:w-full lg:h-[140px] lg:relative lg:top-[118px] z-50'>
-                        </div>
-                        <img className='absolute z-40 -top-[65px] w-[550px]'  src={ModelTwo} alt="" />
-                   
+
+                <div className='lg:items-center lg:justify-center hidden lg:flex'>
+                    <div className='lg:bg-gradient-to-b from-transparent to-[#6a043f] lg:w-full lg:relative z-50 lg:h-[150px] lg:top-[110px]'>
                     </div>
-        
+                    <img className='absolute z-40 -top-[65px] w-[550px]' src={ModelTwo} alt="" />
+
+                </div>
+                <div className='items-center justify-center sm:flex lg:hidden'>
+                    <div className='bg-gradient-to-b from-transparent to-[#68063f] z-50 h-[150px] top-[160px] relative'>
+                    </div>
+                    <img className='absolute z-40 top-[55px] w-[300px] left-[70px]' src={Model} alt="" />
+
+                </div>
+
+
+
                 <div className="flex flex-col text-center ">
 
                     <div className=" absolute top-1/2 left-1/2 w-full flex flex-col 
@@ -33,13 +42,13 @@ function Banner() {
 
                         </div>
                         {/* text-4xl lg:text-7xl  */}
-                        <h1 className="text-[7.5vw] lg:text-[3.55vw] -mt-60 lg:mt-[100px] font-normal text-center leading-tight w-full font-Frank text-white">
+                        <h1 className="text-[7.5vw] lg:text-[3.55vw] mt-10 lg:mt-[100px] font-normal text-center leading-tight w-full font-Frank text-white">
                             It's not a <span className="text-white opacity-80">dating app</span><br />
                             It's not a <span className="text-white opacity-80">matrimony app</span>
                         </h1>
 
                         {/* text-xl lg:text-4xl */}
-                        <p className="text-[22px] w-[80%] lg:text-[32px] lg:w-[55%] lg:mt-1  text-center  mt-10 tracking-normal text-white font-normal font-body ">
+                        <p className="text-[16px] w-[80%] lg:text-[32px] lg:w-[55%] lg:mt-1  text-center  mt-4 tracking-normal text-white font-normal font-body ">
                             Juleo is a Trusted Singles Club of Govt ID verified Members who actually meet, not just match
                         </p>
                         <div className="flex flex-col h-104  lg:flex-row gap-4 h-36 lg:-mt-16">
