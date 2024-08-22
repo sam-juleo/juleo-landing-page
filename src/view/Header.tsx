@@ -96,8 +96,8 @@ const HamburgerIcon = ({ hamburgerClicked, setHamburgerClicked }: { hamburgerCli
         classNames="dropdown"
         unmountOnExit
       >
-        <div className="absolute w-full h-screen top-full right-0 mt-1 bg-white dropdown-enter-done">
-          <div className="flex flex-col text-start bg-white h-1">
+        <div className="absolute w-full h-screen top-full right-0 mt-1 bg-white dropdown-enter-done z-50">
+          <div className="flex flex-col text-start bg-white h-1 z-50">
             {/* <button className="px-6 py-4 text-black box_shadow_bot_wine text-left" onClick={scrollToAboutUs}>
               About
             </button>
@@ -111,10 +111,10 @@ const HamburgerIcon = ({ hamburgerClicked, setHamburgerClicked }: { hamburgerCli
             <button className="block px-6 py-4 text-black box_shadow_bot_wine text-left w-full"><NavLink to="/contact" >Contact</NavLink></button> */}
 
 
-              <NavLink to="/about" className="block px-6 py-4 text-black box_shadow_bot_wine text-left w-full">
+              <NavLink to="/about" className="block px-6 py-4 text-black box_shadow_bot_wine text-left w-full z-50">
                 <button>About</button>
               </NavLink>
-              <NavLink to="/contact" className="block px-6 py-4 text-black box_shadow_bot_wine text-left w-full">
+              <NavLink to="/contact" className="block px-6 py-4 text-black box_shadow_bot_wine text-left w-full z-50">
                 <button>Contact</button>
               </NavLink>
             </ul>

@@ -30,10 +30,10 @@ function Banner() {
                 </div>
 
                 <div className='items-center justify-center sm:flex lg:hidden'>
-                    <div className='bg-gradient-to-b from-transparent to-[#68063f] z-50 h-[150px] relative top-[90px]'>
+                    <div className='bg-gradient-to-b from-transparent to-[#68063f] z-20 h-[150px] relative top-[90px]'>
                     </div>
                     <img
-                        className='absolute z-40 w-[240px] left-1/2 transform -translate-x-1/2 -translate-y-1/2'
+                        className='absolute z-10 w-[240px] left-1/2 transform -translate-x-1/2 -translate-y-1/2'
                         style={{ top: 'calc(15% + 20px)' }}
                         src={Model}
                         alt=""
