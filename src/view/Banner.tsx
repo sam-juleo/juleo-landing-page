@@ -18,19 +18,28 @@ function Banner() {
         <div className="relative bg-gradient-to-b from-pink-0 to-pink-100 min-h-screen ">
             <div className="flex flex-col">
 
-
                 <div className='lg:items-center lg:justify-center hidden lg:flex'>
                     <div className='lg:bg-gradient-to-b from-transparent to-[#6a043f] lg:w-full lg:relative z-50 lg:h-[150px] lg:top-[110px]'>
                     </div>
-                    <img className='absolute z-40 -top-[65px] w-[550px]' src={ModelTwo} alt="" />
-
+                    <img
+                        className='absolute z-40 w-[550px] left-1/2 transform -translate-x-1/2 -translate-y-1/2'
+                        style={{ top: 'calc(24% - 75px)' }}
+                        src={ModelTwo}
+                        alt=""
+                    />
                 </div>
+
                 <div className='items-center justify-center sm:flex lg:hidden'>
-                    <div className='bg-gradient-to-b from-transparent to-[#68063f] z-50 h-[150px] top-[160px] relative'>
+                    <div className='bg-gradient-to-b from-transparent to-[#68063f] z-50 h-[150px] relative top-[160px]'>
                     </div>
-                    <img className='absolute z-40 top-[55px] w-[300px] left-[70px]' src={Model} alt="" />
-
+                    <img
+                        className='absolute z-40 w-[240px] left-1/2 transform -translate-x-1/2 -translate-y-1/2'
+                        style={{ top: 'calc(20% + 20px)' }}
+                        src={Model}
+                        alt=""
+                    />
                 </div>
+
 
 
 
