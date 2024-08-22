@@ -42,13 +42,13 @@ function Banner() {
 
                         </div>
                         {/* text-4xl lg:text-7xl  */}
-                        <h1 className="text-[7.5vw] lg:text-[3.55vw] mt-10 lg:mt-[100px] font-normal text-center leading-tight w-full font-Frank text-white">
+                        <h1 className="text-[7.5vw] lg:text-[3.55vw] mt-10 lg:mt-[100px] font-normal text-center leading-tight w-full font-Frank text-white ">
                             It's not a <span className="text-white opacity-80">dating app</span><br />
                             It's not a <span className="text-white opacity-80">matrimony app</span>
                         </h1>
 
                         {/* text-xl lg:text-4xl */}
-                        <p className="text-[16px] w-[80%] lg:text-[32px] lg:w-[55%] lg:mt-1  text-center  mt-4 tracking-normal text-white font-normal font-body ">
+                        <p className="text-[18px] w-[80%] lg:text-[32px] lg:w-[55%] lg:mt-1  text-center  mt-4 tracking-normal text-white font-normal font-body ">
                             Juleo is a Trusted Singles Club of Govt ID verified Members who actually meet, not just match
                         </p>
                         <div className="flex flex-col h-104  lg:flex-row gap-4 h-36 lg:-mt-16">
