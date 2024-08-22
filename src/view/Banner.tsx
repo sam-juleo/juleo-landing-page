@@ -31,10 +31,10 @@ function Banner() {
 
                 <div className='items-center justify-center sm:flex lg:hidden'>
                     <div className='bg-gradient-to-b from-transparent 
-                    to-[#61063b] z-20 h-[150px] relative top-[70px]'>
+                    to-[#60053a] z-20 h-[150px] relative top-[115px]' >
                     </div>
                     <img
-                        className='absolute z-10 w-[240px] left-1/2 transform -translate-x-1/2 -translate-y-1/2'
+                        className='absolute z-[10] w-[270px] left-1/2 transform -translate-x-1/2 -translate-y-1/2'
                         style={{ top: 'calc(13% + 20px)' }}
                         src={Model}
                         alt=""
@@ -52,7 +52,7 @@ function Banner() {
 
                         </div>
                         {/* text-4xl lg:text-7xl  */}
-                        <h1 className="text-[7.5vw] lg:text-[3.55vw] mt-10 lg:mt-[100px] font-normal text-center leading-tight w-full font-Frank text-white ">
+                        <h1 className="text-[7.5vw] lg:text-[3.55vw] mt-[120px] lg:mt-[100px] font-normal text-center leading-tight w-full font-Frank text-white ">
                             It's not a <span className="text-white opacity-80">dating app</span><br />
                             It's not a <span className="text-white opacity-80">matrimony app</span>
                         </h1>
