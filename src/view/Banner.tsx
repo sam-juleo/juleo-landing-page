@@ -31,11 +31,11 @@ function Banner() {
 
                 <div className='items-center justify-center sm:flex lg:hidden'>
                     <div className='bg-gradient-to-b from-transparent 
-                    to-[#60043a] z-20 h-[150px] relative top-[11vh]' >
+                    to-[#64053c] z-20 h-[150px] relative top-[16vh]' >
                     </div>
                     <img
-                        className='absolute z-[10] w-[60vw] left-1/2 transform -translate-x-1/2 -translate-y-1/2'
-                        style={{ top: 'calc(13% + 20px)' }}
+                        className='absolute z-[10] w-[80vw] left-1/2 transform -translate-x-1/2 -translate-y-1/2'
+                        style={{ top: 'calc(13.5% + 20px)' }}
                         src={Model}
                         alt=""
                     />
