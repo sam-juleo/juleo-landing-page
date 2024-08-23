@@ -31,7 +31,7 @@ function Banner() {
 
                 <div className='items-center justify-center sm:flex lg:hidden'>
                     <div className='bg-gradient-to-b from-transparent  
-                    to-[#680739] z-20 h-[110px] relative top-[20vh]' >
+                    to-[#680739] z-20 h-[150px] relative top-[16vh]' >
                     </div>
                     <img
                         className='absolute z-[10] w-[75vw] left-1/2 transform -translate-x-1/2 -translate-y-1/2'
@@ -52,7 +52,7 @@ function Banner() {
 
                         </div>
                         {/* text-4xl lg:text-7xl  */}
-                        <h1 className="text-[7.5vw] mt-10 lg:text-[3.55vw] lg:mt-[15vh] font-normal text-center leading-tight w-full font-Frank text-white ">
+                        <h1 className="text-[7.5vw] mt-12 lg:text-[3.55vw] lg:mt-[15vh] font-normal text-center leading-tight w-full font-Frank text-white ">
                             It's not a <span className="text-white opacity-80">dating app</span><br />
                             It's not a <span className="text-white opacity-80">matrimony app</span>
                         </h1>
