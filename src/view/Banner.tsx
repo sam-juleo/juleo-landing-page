@@ -31,7 +31,7 @@ function Banner() {
 
                 <div className='items-center justify-center sm:flex lg:hidden'>
                     <div className='bg-gradient-to-b from-transparent  
-                    to-[#680739] z-20 h-[150px] relative top-[15vh]' >
+                    to-[#630938] z-20 h-[150px] relative top-[16vh]' >
                     </div>
                     <img
                         className='absolute z-[10] w-[75vw] left-1/2 transform -translate-x-1/2 -translate-y-1/2'
