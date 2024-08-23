@@ -19,10 +19,10 @@ function Banner() {
             <div className="flex flex-col">
 
                 <div className='lg:items-center lg:justify-center hidden lg:flex'>
-                    <div className='lg:bg-gradient-to-b from-transparent to-[#6a043f] lg:w-full lg:relative z-50 lg:h-[150px] lg:top-[110px]'>
+                    <div className='lg:bg-gradient-to-b from-transparent to-[#6a043f] lg:w-full lg:relative z-50 lg:h-[21vh] lg:top-[16vh]'>
                     </div>
                     <img
-                        className='absolute z-40 w-[550px] left-1/2 transform -translate-x-1/2 -translate-y-1/2'
+                        className='absolute z-40 w-[35vw] left-1/2 transform -translate-x-1/2 -translate-y-1/2'
                         style={{ top: 'calc(24% - 75px)' }}
                         src={ModelTwo}
                         alt=""
@@ -31,10 +31,10 @@ function Banner() {
 
                 <div className='items-center justify-center sm:flex lg:hidden'>
                     <div className='bg-gradient-to-b from-transparent 
-                    to-[#60053a] z-20 h-[150px] relative top-[115px]' >
+                    to-[#60043a] z-20 h-[150px] relative top-[11vh]' >
                     </div>
                     <img
-                        className='absolute z-[10] w-[270px] left-1/2 transform -translate-x-1/2 -translate-y-1/2'
+                        className='absolute z-[10] w-[60vw] left-1/2 transform -translate-x-1/2 -translate-y-1/2'
                         style={{ top: 'calc(13% + 20px)' }}
                         src={Model}
                         alt=""
@@ -52,13 +52,13 @@ function Banner() {
 
                         </div>
                         {/* text-4xl lg:text-7xl  */}
-                        <h1 className="text-[7.5vw] lg:text-[3.55vw] mt-[120px] lg:mt-[100px] font-normal text-center leading-tight w-full font-Frank text-white ">
+                        <h1 className="text-[7.5vw] lg:text-[3.55vw] lg:mt-[15vh] font-normal text-center leading-tight w-full font-Frank text-white ">
                             It's not a <span className="text-white opacity-80">dating app</span><br />
                             It's not a <span className="text-white opacity-80">matrimony app</span>
                         </h1>
 
                         {/* text-xl lg:text-4xl */}
-                        <p className="text-[18px] w-[80%] lg:text-[32px] lg:w-[55%] lg:mt-1  text-center  mt-4 tracking-normal text-white font-normal font-body ">
+                        <p className="text-[3.5vw] w-[80%] lg:text-[2.1vw] lg:w-[55%] lg:mt-1  text-center  mt-4 tracking-normal text-white font-normal font-body ">
                             Juleo is a Trusted Singles Club of Govt ID verified Members who actually meet, not just match
                         </p>
                         <div className="flex flex-col h-104  lg:flex-row gap-4 h-36 lg:-mt-16">
