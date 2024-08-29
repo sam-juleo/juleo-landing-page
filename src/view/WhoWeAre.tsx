@@ -70,7 +70,7 @@ function WhoWeAre() {
                             />
                         </div>
                         <div className="">
-                            Our values are respecting the user, the opportunity and each other (copied with pride from Google!)
+                            Our values are respecting the user, the opportunity and each other 
                         </div>
                     </div>
                     <div className="flex space-x-3">
