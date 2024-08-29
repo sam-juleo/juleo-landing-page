@@ -12,6 +12,7 @@ const Card = ({ title, subtitle, imageSrc, link }: CardProps) => (
       <img src={imageSrc} alt={title} className="w-[240px] h-[240px] rounded-full" />
     </div>
     <div>
+      
       <h2 className="text-2xl font-medium text-wine-120">{title}</h2>
       <p className="text-lg font-normal text-gray-600">{subtitle}</p>
     </div>
