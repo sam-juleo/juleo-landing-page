@@ -1,19 +1,9 @@
-import { useEffect } from 'react';
 import { FaApple } from "react-icons/fa6";
 import { FaGooglePlay } from "react-icons/fa";
 import ModelTwo from '../assets/ModelTwo.png';
 import Model from '../assets/Model.png';
 import Mithila1 from '../assets/Juleo0212-wobg-smooth4.png'
 function Banner() {
-    // useEffect(() => {
-    //     // Disable scrolling
-    //     document.body.classList.add('overflow-hidden');
-
-    //     // Cleanup function to enable scrolling again
-    //     return () => {
-    //         document.body.classList.remove('overflow-hidden');
-    //     };
-    // }, []);
 
     return (
         <div className=" relative min-h-screen bg-gradient-to-b from-[#3D0723] to-[#C40278] ">
